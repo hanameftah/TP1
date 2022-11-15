@@ -1,5 +1,9 @@
 package package1;
 
-public interface IObjetDessinable {
+import java.awt.Graphics;
 
+public interface IObjetDessinable {
+ 
+
+void dessiner(Graphics g);
 }

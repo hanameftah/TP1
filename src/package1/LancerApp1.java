@@ -37,6 +37,11 @@ public class LancerApp1 {
 		}
 		
 		
+		
+		
+		Visage v = new Visage(d);
+		d.ajouterObjet(v);
+	
 		while(true) {
 		// la zone de dessin se réaffiche
 		d.repaint();
